@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="5" name="Suite">
+  <test  parallel="tests" name="Test2">
+    <classes>
+      
+      <class name="com.comcast.crm.practice.Pqr"/>
+  
+    </classes>
+  </test> <!-- Test -->
+  <test  parallel="tests" name="Test1">
+    <classes>
+      <class name="com.comcast.crm.practice.Abc"/>
+   
+    </classes>
+  </test> <!-- Test -->
+  <test  parallel="tests" name="Test3">
+    <classes>
+    
+      <class name="com.comcast.crm.practice.Mno"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
